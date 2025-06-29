@@ -1,11 +1,13 @@
-from turtle import Turtle , Screen
+from turtle import Turtle, Screen
 
-
-tue= Turtle()
+tue = Turtle()
 tue.shape("turtle")
-tue.color("blue")
 
+for steps in range(100):
+    for c in ('blue', 'red', 'green'):
+        tue.color(c)
+        tue.forward(steps)
+        tue.right(90)
 
-
-screen=Screen()
+screen = Screen()
 screen.exitonclick()
