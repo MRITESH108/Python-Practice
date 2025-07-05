@@ -1,0 +1,23 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Logs and coverage
+*.log
+.coverage
+.pytest_cache/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Distribution files
+build/
+dist/
+*.egg-info/
+
